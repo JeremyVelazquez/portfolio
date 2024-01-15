@@ -1,0 +1,87 @@
+/*Global Rules*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/*Navbar*/
+.navbar-brand{
+    font-weight: bolder;
+    color: fuchsia;
+    transition: 1s;
+}
+.navbar-brand:hover{
+    text-decoration: underline;
+    color: white;
+}
+.navbar-toggler{
+    background-color: fuchsia;
+    transition: 1s;
+}
+.navbar-toggler:hover{
+    background-color: white;
+}
+.nav-item a{
+    color:white;
+}
+.nav-item a:hover{
+    color:fuchsia;
+}
+.nav-item a:visited{
+    color: white;
+}
+
+.nav-item a:hover{
+    color:fuchsia;
+}
+.nav-item.dropdown a{
+    color: white;
+}
+.nav-item.dropdown a:hover{
+    color: fuchsia;
+}
+.dropdown-toggle::after{
+    color:white;
+}
+#searchbtn{
+    color: fuchsia;
+    border: 1px solid fuchsia;
+}
+#FacebookNav{
+    color:black;
+    transition: 1s;
+    
+}
+#InstagramNav{
+    color: black;
+    transition: 1s;
+}
+
+#FacebookNav:hover{
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+}
+#InstagramNav:hover{
+    color: white;
+    background-color: purple;
+}
+/*Navbar*/
+
+/*Mobile Carousel*/
+.carousel-item{
+    height: 200px;
+}
+.carousel-item img{
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height:200px;
+}
+@media screen and (min-width: 500px){
+    #carouselExampleCaptions{
+        display:none;
+    }
+}
+/*Mobile Carousel*/

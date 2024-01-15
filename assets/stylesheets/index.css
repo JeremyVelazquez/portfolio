@@ -5,6 +5,12 @@ body{
     font-size: calc(15px + 0.390625vw);
 }
 
+@media screen and (min-width: 500px){
+    #carouselExampleCaptions{
+        display:none;
+    }
+}
+
 /*Navbar*/
 .navbar-brand{
     font-weight: bolder;
@@ -79,37 +85,6 @@ body{
     top: 0;
     left: 0;
     min-height:200px;
-}
-@media screen and (min-width: 500px){
-    body{
-        font-size: calc(15px + 0.390625vw);
-    }
-    #carouselExampleCaptions{
-        display:none;
-    }
-    #FAQContainer{
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    #FAQ{
-        text-align: center;
-        color: fuchsia;
-        font-weight: bolder;
-    }
-    #btnfaq{
-        width: fit-content;
-        color: fuchsia;
-        margin-bottom: 5px;
-        text-decoration: none;
-    }
-    #btnfaq:hover{
-        width: fit-content;
-        color: white;
-        text-decoration: underline;
-    }
-    .card.card-body{
-        background-color: fuchsia;
-    }
 }
 /*Mobile Carousel*/
 

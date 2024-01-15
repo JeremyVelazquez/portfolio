@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 body{
     font-family: 'Comfortaa', sans-serif;
+    font-size: calc(15px + 0.390625vw);
 }
 
 /*Navbar*/
@@ -85,3 +86,29 @@ body{
     }
 }
 /*Mobile Carousel*/
+
+/*FAQ*/
+#FAQContainer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#FAQ{
+    text-align: center;
+    color: fuchsia;
+    font-weight: bolder;
+}
+#btnfaq{
+    width: fit-content;
+    color: fuchsia;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+#btnfaq:hover{
+    width: fit-content;
+    color: white;
+    text-decoration: underline;
+}
+.card.card-body{
+    background-color: fuchsia;
+}
+/*FAQ*/

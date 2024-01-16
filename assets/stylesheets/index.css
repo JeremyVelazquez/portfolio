@@ -103,6 +103,7 @@ body{
     color: fuchsia;
     margin-bottom: 5px;
     text-decoration: none;
+    font-size: calc(15px + 0.390625vw);
 }
 #btnfaq:hover{
     width: fit-content;
@@ -113,3 +114,15 @@ body{
     background-color: fuchsia;
 }
 /*FAQ*/
+
+/*Footer*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.mb-4 > a > i{
+    color:fuchsia;
+}
+/* Footer*/
